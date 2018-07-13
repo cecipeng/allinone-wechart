@@ -1,0 +1,20 @@
+// ------------------------------------------
+// fastenter
+// ------------------------------------------
+
+@import '../../../statics/css/_base';
+
+.ui-fastenter {
+  text-align: center;
+  font-size: 0;
+  &__item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 24%;
+    height: unit(60);
+    line-height: unit(20);
+    padding-top: unit(40);
+    font-size: $fz-l;
+    @include bgurl2("common/tabbar-tool.png");
+  }
+}

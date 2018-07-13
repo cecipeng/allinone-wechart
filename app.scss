@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*!
+ * Ceci.css —— a beautiful css framework
+ * Repository - https://github.com/cecipeng/ceci.css
+ * Website - 
+ * Author - CeciPeng <1047328479@qq.com>
+ * Version - v1.1.0
+ */
+
+
+//--------------------- base ---------------------//
+
+@import "statics/css/conf";
+
+// theme and mixins
+@import "statics/css/_base/mixin";
+@import "statics/css/_theme/default"; //皮肤在此修改，默认使用default
+
+// reset
+@import "statics/css/_base/reset-mobile";
+@import "statics/css/_base/reset";	// default
+@if $conf-mobile {
+	@include import-reset-mobile;
+} 
+@else {
+	@include import-reset;
+}
+
+
+//--------------------- core ---------------------//
+
+// animation,default:false
+@import "statics/css/_base/animate";
+@if $conf-animation {
+	@include import-animate;
+}
+
+
+
+//--------------------- pages private style ---------------------//
