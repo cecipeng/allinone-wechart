@@ -1,14 +1,87 @@
-.ui-fastenter {
-  text-align: center;
-  font-size: 0;
-}
-.ui-fastenter__item {
-  display: inline-block;
-  vertical-align: middle;
-  width: 24%;
-  height: 60rpx;
-  line-height: 20rpx;
-  padding-top: 40rpx;
-  font-size: 36rpx;
-  background: url("../../../../statics/images/common/tabbar-tool.png") no-repeat left top;
-}
+/*
+Error: Invalid GBK character "\xE4"
+        on line 86 of ../../../statics/css/_theme/_default.scss
+        from line 4 of ../../../statics/css/_base.scss
+        from line 5 of fastenter.scss
+
+81: 
+82: 
+83: //--------------------- z-index ---------------------//
+84: 
+85: $zi:                    1;
+86: $zi-up:                 3;      //两者之间的上层
+87: $zi-down:               2;      //两者之间的下层
+88: $zi-fix:                50;		//fixed topbar,backtotop
+89: $zi-dd:                 70;		//dropdown
+90: $zi-modal:              100;	//pop  
+91: 
+
+Backtrace:
+../../../statics/css/_theme/_default.scss:86
+../../../statics/css/_base.scss:4
+fastenter.scss:5
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:1043:in `rescue in block in find_encoding_error'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:1040:in `block in find_encoding_error'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:1039:in `each'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:1039:in `each_with_index'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:1039:in `find_encoding_error'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/util.rb:767:in `check_sass_encoding'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:444:in `check_encoding!'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:400:in `_to_tree'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:321:in `to_tree'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `map'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `block in with_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:88:in `with_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin.rb:82:in `update_stylesheets'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/bin/scss:13:in `<top (required)>'
+D:/Program Files/Ruby25-x64/bin/scss:23:in `load'
+D:/Program Files/Ruby25-x64/bin/scss:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE4\"\A         on line 86 of ../../../statics/css/_theme/_default.scss\A         from line 4 of ../../../statics/css/_base.scss\A         from line 5 of fastenter.scss\A \A 81: \A 82: \A 83: //--------------------- z-index ---------------------//\A 84: \A 85: $zi:                    1;\A 86: $zi-up:                 3;      //两者之间的上层\A 87: $zi-down:               2;      //两者之间的下层\A 88: $zi-fix:                50;		//fixed topbar,backtotop\A 89: $zi-dd:                 70;		//dropdown\A 90: $zi-modal:              100;	//pop  \A 91: "; }

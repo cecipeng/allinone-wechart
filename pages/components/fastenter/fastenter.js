@@ -6,13 +6,7 @@ Component({
   properties: {
     fastEnterList : {
       type: Array,
-      value: [
-        {
-          "url": "../index/index",
-          "classname": "ss",
-          "name": "ss"
-        }
-      ]
+      value: []
     }
   },
 

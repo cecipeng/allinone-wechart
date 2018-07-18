@@ -1,0 +1,11 @@
+<view class='ui-nav ui-nav--small'>
+  <view class='ui-nav__menu'>
+    <navigator class='ui-nav__item'>今日</navigator>
+    <navigator class='ui-nav__item'>全部日程</navigator>
+    <navigator class='ui-nav__item'>待办</navigator>
+    <navigator class='ui-nav__item'>清单</navigator>
+  </view>
+  <view class='ui-nav__other'>
+    <button type="default"> default </button>
+  </view>
+</view>

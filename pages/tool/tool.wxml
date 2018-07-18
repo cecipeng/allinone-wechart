@@ -1,1 +1,1 @@
-<Fastenter></Fastenter>
+<Fastenter fastEnterList="{{fastEnterList}}"></Fastenter>

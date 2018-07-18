@@ -1,13 +1,15 @@
 {
-  "pages":[
+  "pages": [
     "pages/work/work",
-    "pages/tool/tool"
+    "pages/tool/tool",
+    "pages/tool/calendar/calendar",
+    "pages/tool/calendar/addCalendar/addCalendar"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#333",

@@ -1,22 +1,11 @@
-// pages/tool/tool.js
+// pages/tool/calendar/addCalendar/addCalendar.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    fastEnterList: [
-      {
-        "url": "calendar/calendar",
-        "classname": "",
-        "name": "日程"
-      },
-      {
-        "url": "calendar/calendar",
-        "classname": "",
-        "name": "日程3"
-      }
-    ]
+  
   },
 
   /**
