@@ -6,6 +6,6 @@
     <navigator class='ui-nav__item'>清单</navigator>
   </view>
   <view class='ui-nav__other'>
-    <button type="default"> default </button>
+    <button type="default"></button>
   </view>
 </view>

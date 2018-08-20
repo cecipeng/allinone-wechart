@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddacd7ed-35e0-456e-ae95-9d4509e3c8d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/components/fastenter/fastenter.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/fastenter/fastenter.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_base.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_base/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_base/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_base/_reset-mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_base/_reset-mobile.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_base/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_base/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_conf.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_conf.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statics/css/_theme/_default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_theme/_default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/addCalendar/addCalendar.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/addCalendar/addCalendar.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/calendar.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/calendar.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/calendar.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/calendar.wxss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,80 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="app.wxss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.wxss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="948">
-              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="692">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_conf.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_conf.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_base.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_base.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_mixin.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_base/_mixin.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_default.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_theme/_default.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_reset-mobile.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_base/_reset-mobile.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_reset.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/statics/css/_base/_reset.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="17" selection-start-column="17" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -134,7 +57,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,6 +93,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -205,32 +128,32 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531881653038</updated>
-      <workItem from="1531881655687" duration="3344000" />
+      <workItem from="1531881655687" duration="3970000" />
+      <workItem from="1533023699535" duration="88000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3344000" />
+    <option name="totallyTimeSpent" value="4058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="260" y="80" width="1400" height="1000" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32918552" />
-      <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
@@ -242,13 +165,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app2.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app2.scss" />
     <entry file="file://$PROJECT_DIR$/statics/css/_conf.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -293,8 +210,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app.wxss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="948">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="706">
+          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
         </state>
       </provider>
     </entry>
