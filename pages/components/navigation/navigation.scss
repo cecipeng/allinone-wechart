@@ -1,0 +1,18 @@
+// ------------------------------------------
+// navigation
+// ------------------------------------------
+
+@import '../../../statics/css/_base';
+
+.ui-navigation {
+  text-align: center;
+  display: flex;
+  &__item {
+    flex: 1;
+    height: unit(60);
+    line-height: unit(20);
+    padding-top: unit(40);
+    font-size: $fz-l;
+    @include bgurl2("common/tabbar-tool.png");
+  }
+}

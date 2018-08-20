@@ -1,0 +1,3 @@
+<view class='ui-navigation'>
+  <navigator wx:for="{{navList}}" url="{{item.url}}" class="ui-fastenter__item {{item.classname}}" open-type="redirect" wx:key="{{index}}">{{item.name}}</navigator>
+</view>

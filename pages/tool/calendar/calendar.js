@@ -5,7 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    navList: [
+      {
+        "url": "addCalendar/addCalendar",
+        "classname": "",
+        "name": "添加日程"
+      },
+      {
+        "url": "addCalendar/addCalendar",
+        "classname": "",
+        "name": "日程3"
+      }
+    ]
   },
 
   /**
