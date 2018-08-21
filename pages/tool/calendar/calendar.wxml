@@ -1,3 +1,7 @@
-<view class='mod-calendar'>
-  <Navigation navList="{{navList}}"></Navigation>
+<view class='mod-calendar ui-layout ui-layout--footer'>
+  <view class='ui-layout__body'>
+  </view>
+  <view class='ui-layout__footer'>
+    <Navigation navList="{{navList}}"></Navigation>
+  </view>
 </view>

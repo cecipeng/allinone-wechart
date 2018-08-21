@@ -93,4 +93,24 @@ input, textarea, select {
 html {
   font-family: 'San Francisco',Helvetica,Roboto,'Droid Sans','Microsoft YaHei', 'SimSun', Arial; }
 
+page {
+  height: 100%;
+  box-sizing: border-box; }
+  page view {
+    box-sizing: border-box; }
+
+.ui-layout {
+  height: 100%; }
+  .ui-layout--footer {
+    padding-bottom: 88rpx; }
+  .ui-layout__body {
+    height: 100%;
+    overflow: auto; }
+  .ui-layout__footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 88rpx; }
+
 /*# sourceMappingURL=app.wxss.map */

@@ -39,3 +39,28 @@
 
 
 //--------------------- pages private style ---------------------//
+page {
+	height: 100%;
+	box-sizing: border-box;
+	view {
+	    box-sizing: border-box;
+	}
+}
+//layout
+.ui-layout {
+	height: 100%;
+	&--footer {
+		padding-bottom: $footer-h;
+	}
+	&__body {
+		height: 100%;
+		overflow: auto;
+	}
+	&__footer {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		height: $footer-h;
+	}
+}

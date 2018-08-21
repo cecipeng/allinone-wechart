@@ -1,20 +1,18 @@
 // ------------------------------------------
-// fastenter
+// navigation
 // ------------------------------------------
 
-@import '../../../statics/css/_base';
+@import '../../statics/css/base';
 
-.ui-fastenter {
+.ui-navigation {
   text-align: center;
-  font-size: 0;
+  display: flex;
   &__item {
-    display: inline-block;
-    vertical-align: middle;
-    width: 24%;
+    flex: 1;
     height: unit(60);
     line-height: unit(20);
     padding-top: unit(40);
     font-size: $fz-l;
-    //@include bgurl2("common/tabbar-tool.png");
+    @include bgurl2("common/tabbar-tool.png");
   }
 }
