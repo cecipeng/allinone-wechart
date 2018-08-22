@@ -1,6 +1,9 @@
 {
   "component": true,
   "usingComponents": {
-    "Navigation": "../../components/navigation/navigation"
+    "Navigation": "../../components/navigation/navigation",
+    "Header": "../../components/header/header",
+    "DayCalendar": "dayCalendar/dayCalendar",
+    "Todo": "todo/todo"
   }
 }

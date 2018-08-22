@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "Dropdown": "../../../components/dropdown/dropdown"
+  }
+}

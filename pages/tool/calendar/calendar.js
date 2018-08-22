@@ -5,16 +5,22 @@ Page({
    * 页面的初始数据
    */
   data: {
+    currentTab: 0, //默认显示今日
     navList: [
       {
-        "url": "addCalendar/addCalendar",
         "classname": "",
-        "name": "添加日程"
+        "name": "今日",
+        "value": 0
       },
       {
-        "url": "addCalendar/addCalendar",
         "classname": "",
-        "name": "日程3"
+        "name": "全部日程",
+        "value": 1
+      },
+      {
+        "classname": "",
+        "name": "待办列表",
+        "value": 2
       }
     ]
   },
@@ -23,7 +29,14 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
+  },
+
+  //tab切换
+  onSwitchResult: function (e) {
+    this.setData({
+      currentTab: e.detail.currentTab
+    })
   },
 
   /**

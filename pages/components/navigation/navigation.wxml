@@ -1,3 +1,3 @@
 <view class='ui-navigation'>
-  <navigator wx:for="{{navList}}" url="{{item.url}}" class="ui-navigation__item {{item.classname}}" open-type="redirect" wx:key="{{index}}">{{item.name}}</navigator>
+  <view wx:for="{{navList}}" wx:key="{{item.value}}" data-id='{{item.value}}' class="ui-navigation__item {{item.classname}}" bindtap='switchTab'>{{item.name}}</view>
 </view>

@@ -1,0 +1,9 @@
+<view class='ui-header'>
+  <view class='ui-header__left'>
+    <navigator wx:if='{{hasBack}}' class='ui-header__back'></navigator>
+  </view>
+  <view class='ui-header__right'></view>
+  <view class='ui-header__content'>
+    <view class='ui-header__title'>{{title}}</view>
+  </view>
+</view>

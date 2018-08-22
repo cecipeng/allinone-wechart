@@ -1,0 +1,17 @@
+<view class='calendar-day'>
+  <view class='calendar-topbar'>
+    <view class='calendar-topbbar__side'>
+      <Dropdown dropList='{{dropList}}'></Dropdown>
+    </view>
+    <view class='calendar-topbar__day'>
+      <button class='day-ctrlbtn day-prev'></button>
+      <view class='day-list'>
+        <view class='day-item' wx:for='{{dayList}}' wx:key='{{index}}'>
+          <text class='day-num'>{{item.day}}</text>
+          <text class='day-week'>{{item.week}}</text>
+        </view>
+      </view>
+      <button class='day-ctrlbtn day-next'></button>
+    </view>
+  </view>
+</view>

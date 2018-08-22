@@ -1,0 +1,16 @@
+// ------------------------------------------
+// header
+// ------------------------------------------
+
+@import '../../../statics/css/_base';
+$nav-h: $footer-h;
+$nav-bg: #f5f5f5;
+$nav-color: $color;
+$nav-fz:    $fz;
+
+.ui-header {
+  height: $nav-h;
+  text-align: center;
+  display: flex;
+  background-color: $nav-bg;
+}

@@ -1,7 +1,13 @@
 <view class='mod-calendar ui-layout ui-layout--footer'>
+  <view class='ui-layout__header'>
+    <Header title='日程'></Header>
+  </view>
   <view class='ui-layout__body'>
+    <view><DayCalendar wx:if='{{currentTab == 0}}'></DayCalendar></view>
+    <view><AllCalendar wx:if='{{currentTab == 1}}'></AllCalendar></view>
+    <view><Todo wx:if='{{currentTab == 2}}'></Todo></view>
   </view>
   <view class='ui-layout__footer'>
-    <Navigation navList="{{navList}}"></Navigation>
+    <Navigation navList="{{navList}}" bind:switchResult='onSwitchResult'></Navigation>
   </view>
 </view>
