@@ -1,19 +1,33 @@
 <view class='calendar-day'>
   <view class='calendar-topbar'>
     <view class='calendar-topbar__side'>
-      <Dropdown dropList='{{dropList}}'>
-        <view slot='main' class='calendar-topbar__droplink'></view>
+      <Dropdown dropClass='is-right' dropWidth='200rpx' dropList='{{dropList}}'>
+        <view class='ui-dropdown__droplink calendar-topbar__droplink'>分类<text class='arrow'></text></view>
       </Dropdown>
     </view>
     <view class='calendar-topbar__day'>
-      <button class='day-ctrlbtn day-prev'></button>
+      <view class='day-ctrlbtn day-prev'></view>
       <view class='day-list'>
         <view class='day-item' wx:for='{{dayList}}' wx:key='{{index}}'>
           <text class='day-num'>{{item.day}}</text>
           <text class='day-week'>{{item.week}}</text>
         </view>
       </view>
-      <button class='day-ctrlbtn day-next'></button>
+      <view class='day-ctrlbtn day-next'></view>
     </view>
+  </view>
+  <view class='calendar-body'>
+    <view class='calendar-checkwrap'>
+      <view class='calendar-checkwrap__box'>
+        <text class='calendar-checkwrap__time'>全天</text>
+        <view class='calendar-checkwrap__content'>
+          <view class='calendar-checkwrap__row'>
+            <label class="checkbox">
+              <checkbox/>xx
+            </label>
+          </view>
+        </view>
+      </view>
+    </view> 
   </view>
 </view>

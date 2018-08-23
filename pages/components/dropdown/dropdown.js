@@ -7,9 +7,16 @@ Component({
     dropList: {
       type: Array,
       value: []
+    },
+    dropClass: {
+      type: String,
+      value: ""
+    },
+    dropWidth: {
+      type: String,
+      value: ""
     }
   },
-
   /**
    * 组件的初始数据
    */

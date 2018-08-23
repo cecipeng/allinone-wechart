@@ -1,11 +1,11 @@
-<view class='mod-calendar ui-layout ui-layout--footer'>
+<view class='mod-calendar ui-layout ui-layout--footer ui-layout--header'>
   <view class='ui-layout__header'>
     <Header title='日程'></Header>
   </view>
   <view class='ui-layout__body'>
-    <view><DayCalendar wx:if='{{currentTab == 0}}'></DayCalendar></view>
-    <view><AllCalendar wx:if='{{currentTab == 1}}'></AllCalendar></view>
-    <view><Todo wx:if='{{currentTab == 2}}'></Todo></view>
+    <DayCalendar wx:if='{{currentTab == 0}}'></DayCalendar>
+    <AllCalendar wx:if='{{currentTab == 1}}'></AllCalendar>
+    <Todo wx:if='{{currentTab == 2}}'></Todo>
   </view>
   <view class='ui-layout__footer'>
     <Navigation navList="{{navList}}" bind:switchResult='onSwitchResult'></Navigation>

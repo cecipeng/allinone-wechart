@@ -49,12 +49,22 @@ page {
 //layout
 .ui-layout {
 	height: 100%;
+	&--header {
+		padding-top: $header-h;
+	}
 	&--footer {
 		padding-bottom: $footer-h;
 	}
 	&__body {
 		height: 100%;
 		overflow: auto;
+	}
+	&__header {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 0;
+		height: $header-h;
 	}
 	&__footer {
 		position: absolute;

@@ -38,7 +38,7 @@ Component({
       var _list = [];
       var _day = '';
       var _week = '';
-      for(var i=-3,j=0;i<4;i++,j++){
+      for(var i=-3,j=0;i<2;i++,j++){
         _day = moment().subtract(i, 'days').format('MM.DD');
         _week = this.formatWeek(moment().subtract(i, 'days').format('d'));
         _list.push({day:_day,week:_week});
