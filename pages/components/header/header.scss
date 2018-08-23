@@ -3,14 +3,45 @@
 // ------------------------------------------
 
 @import '../../../statics/css/_base';
-$nav-h: $footer-h;
-$nav-bg: #f5f5f5;
-$nav-color: $color;
-$nav-fz:    $fz;
-
+$header-h: $header-h;
+$header-bg: #f5f5f5;
+$header-title-fz: $fz-xl;
+$header-title-color: $color-d;
 .ui-header {
-  height: $nav-h;
+  position: relative;
+  height: $header-h;
+  padding: 0 unit(10); ///////////////
   text-align: center;
-  display: flex;
-  background-color: $nav-bg;
+  background-color: $header-bg;
+  &__left {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+  }
+  &__right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  &__title {
+    line-height: $header-h;
+    font-size: $header-title-fz;
+    color: $header-title-color;
+  }
+  &__back {
+    display: inline-block;
+    vertical-align: middle;
+    width: $header-h;
+    height: $header-h;
+    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAS1BMVEUAAACUlJSYmJiYmJiioqKZmZmampqVlZWYmJiZmZmXl5eZmZmYmJiZmZmampqYmJiYmJiYmJiZmZmZmZmampqZmZmZmZmXl5eZmZlqAxG1AAAAGHRSTlMAD/pCB89kCvXUW8pUTDqqvbixwzXoGRZeuD4qAAAAcklEQVRYw+3PyQ6AIBRDURQRcRan9/9fKrp1WRIc2v25SdXPtlnMl/m6Q15ENOgH+qTeo75I5+sIfqKH/JjQtx/wM+rte30XfIP4/PJwgIWzkCEFHQqGBRZYiF2oRBxU6Fl4TGEJBVOgBa2gF85bxd13AJ6uElxXtKMjAAAAAElFTkSuQmCC');
+    background-repeat: no-repeat;
+    background-size: unit(50) auto;
+    background-position: center center;
+    @include opacity2;
+    &:active {
+      background-color: transparent;
+    }
+  }
 }

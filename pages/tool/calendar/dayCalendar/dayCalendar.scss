@@ -1,0 +1,57 @@
+// ------------------------------------------
+// dayCalendar
+// ------------------------------------------
+
+@import '../../../../statics/css/base';
+
+$topbar-h: $header-h;
+$topbar-bg: $main;
+$topbar-prev-size: unit(40); //左右切换按钮宽度
+.calendar-topbar {
+  height: $topbar-h;
+  background-color: $topbar-bg;
+  &__side {
+    float: right;
+    height: 100%;
+  }
+  &__droplink {
+    width: unit(200);
+  }
+  &__day {
+    position: relative;
+    overflow: hidden;
+    padding: 0 $topbar-prev-size;
+    .day-ctrlbtn {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: $topbar-prev-size;
+      height: 100%;
+    }
+    .day-prev {
+      left: 0;
+    }
+    .day-next {
+      right: 0;
+    }
+    .day-list {
+      display: flex;
+    }
+    .day-item {
+      flex: 1;
+      text-align: center;
+    }
+    .day-num {
+      display: block;
+      line-height: $topbar-h / 2;
+      font-size: $fz; //////// 数字样式
+      color: #fff; ////////
+    }
+    .day-week {
+      display: block;
+      line-height: $topbar-h / 2;
+      font-size: $fz-s; //////// 星期样式
+      color: #fff; ////////
+    }
+  }
+}

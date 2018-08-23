@@ -1,7 +1,9 @@
 <view class='calendar-day'>
   <view class='calendar-topbar'>
-    <view class='calendar-topbbar__side'>
-      <Dropdown dropList='{{dropList}}'></Dropdown>
+    <view class='calendar-topbar__side'>
+      <Dropdown dropList='{{dropList}}'>
+        <view slot='main' class='calendar-topbar__droplink'></view>
+      </Dropdown>
     </view>
     <view class='calendar-topbar__day'>
       <button class='day-ctrlbtn day-prev'></button>

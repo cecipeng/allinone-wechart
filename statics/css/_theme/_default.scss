@@ -53,9 +53,9 @@ $disabled-border:       #ddd;
 
 //color
 $color:                 #666;
-$color-d: 			        #333;
-$color-l: 		          #999;
-$color-disable: 		    $color-l;
+$color-d: 			    #333;
+$color-l: 		        #999;
+$color-disable: 		$color-l;
 
 //font-size
 $fz-xs:                  unit(24);
@@ -64,6 +64,11 @@ $fz:                    unit(32);
 $fz-l:                  unit(36);
 $fz-xl:                 unit(40);
 $fz-xxl:                unit(48);
+
+//icon
+$icon-color:              #999;
+$icon-color-l:            #bbb;
+$icon-color-d:            #666;
 
 //line-height
 $lh:                    1.5;
@@ -100,9 +105,9 @@ $dur-h:                 2s;
 
 //--------------------- width and height ---------------------//
 
-$header-h:              unit(88);       // header height
-$nav-h:                 unit(0);        // mainnav height  
-$footer-h:              unit(88);       // footer height ///
+$header-h:              unit(88);       // ///
+$nav-h:                 unit(0);        //
+$footer-h:              unit(88);       // ///
 $centerwrap-w:			unit(1200);     // 类型：居中内容宽度
 $wrap-min-w:			unit(1024);        //类型：全屏内容最小宽度，小于该值应该出现横向滚动条
 $side-w:				unit(200);      // 侧栏 width

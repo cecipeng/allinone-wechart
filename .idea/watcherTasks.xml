@@ -14,14 +14,14 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$PROJECT_DIR$" />
+      <option name="program" value="D:/Program Files/Ruby25-x64/bin/sass.bat" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
       <option name="workingDir" value="$FileDir$" />
       <envs />
     </TaskOptions>
-    <TaskOptions isEnabled="false">
+    <TaskOptions isEnabled="true">
       <option name="arguments" value="--no-cache --update $FileName$:$FileNameWithoutExtension$.wxss" />
       <option name="checkSyntaxErrors" value="true" />
       <option name="description" />
@@ -34,7 +34,7 @@
         <array />
       </option>
       <option name="outputFromStdout" value="false" />
-      <option name="program" value="$PROJECT_DIR$" />
+      <option name="program" value="D:/Program Files/Ruby25-x64/bin/sass.bat" />
       <option name="runOnExternalChanges" value="true" />
       <option name="scopeName" value="Project Files" />
       <option name="trackOnlyRoot" value="true" />
