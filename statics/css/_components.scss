@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+///////////////////////////////////////   layout
+.ui-layout {
+  height: 100%;
+  &--header {
+    padding-top: $header-h;
+  }
+  &--footer {
+    padding-bottom: $footer-h;
+  }
+  &__body {
+    height: 100%;
+    overflow: auto;
+  }
+  &__header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: $header-h;
+  }
+  &__footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: $footer-h;
+  }
+}
+
+
+
+/////////////////////////////////////    checkbox
+.ui-checkbox {
+  font-size: $checkbox-fz;
+  color: $checkbox-color;
+  checkbox {
+    width: $checkbox-size;
+    height: $checkbox-size;
+    margin-right: $checkbox-mr;
+    border-radius: $checkbox-radius;
+    border: 1rpx solid $checkbox-border;
+  }
+}

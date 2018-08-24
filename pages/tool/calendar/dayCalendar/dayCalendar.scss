@@ -1,12 +1,19 @@
+@charset "UTF-8";
 // ------------------------------------------
 // dayCalendar
 // ------------------------------------------
 
 @import '../../../../statics/css/base';
 
+// topbar
 $topbar-h: unit(100);
 $topbar-bg: $main;
 $topbar-prev-size: unit(64); //左右切换按钮宽度
+
+//统计栏
+$total-h: unit(50);
+$total-bg: $bg;
+
 .calendar {
   &-day {
     display: flex;
@@ -73,5 +80,49 @@ $topbar-prev-size: unit(64); //左右切换按钮宽度
   &-body {
     flex: 1;
     overflow: auto;
+  }
+  //统计
+  &-total {
+    display: flex;
+    height: $total-h;
+    line-height: $total-h;
+    background-color: $total-bg;
+    &__item {
+      flex: 1;
+      padding: 0 unit(20);
+      font-size: $fz-xs; //////////
+      color: $color-d; /////////
+      &.item-finish {
+        color: $green;
+      }
+      &.item-wait {
+        color: $blue;
+      }
+      &.item-pass {
+        color: $grey;
+      }
+    }
+  }
+
+  //列表
+  &-checkwrap {
+    &__box {
+
+    }
+    //时间
+    &__time {
+      float: left;
+      width: unit(100); ///////
+      font-size: $fz;  //////
+    }
+    &__content {
+      overflow: hidden;
+    }
+    &__row {
+      margin-bottom: unit(20); //////
+      .ui-checkbox {
+        display: block;
+      }
+    }
   }
 }

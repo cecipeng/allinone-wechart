@@ -1,60 +1,12 @@
-/*
-Error: File to import not found or unreadable: ../../statics/css/base.
-        on line 5 of addCalendar.scss
+.ui-navigation {
+  text-align: center;
+  display: flex; }
+  .ui-navigation__item {
+    flex: 1;
+    height: 60rpx;
+    line-height: 20rpx;
+    padding-top: 40rpx;
+    font-size: 36rpx;
+    background: url("../../../../statics/images/common/tabbar-tool.png") no-repeat left top; }
 
-1: // ------------------------------------------
-2: // navigation
-3: // ------------------------------------------
-4: 
-5: @import '../../statics/css/base';
-6: 
-7: .ui-navigation {
-8:   text-align: center;
-9:   display: flex;
-10:   &__item {
-
-Backtrace:
-addCalendar.scss:5
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:67:in `rescue in import'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:44:in `import'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:28:in `imported_file'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/import_node.rb:37:in `css_import?'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `block in with_base'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:135:in `with_frame'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/stack.rb:79:in `with_base'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:162:in `visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `map'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/base.rb:36:in `visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:161:in `visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/visitors/perform.rb:10:in `visit'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:36:in `css_tree'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/engine.rb:307:in `render_with_sourcemap'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `each'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/plugin.rb:82:in `update_stylesheets'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:340:in `watch_or_update'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/sass_scss.rb:51:in `process_result'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:52:in `parse'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/lib/sass/exec/base.rb:19:in `parse!'
-D:/Program Files/Ruby25-x64/lib/ruby/gems/2.5.0/gems/sass-3.5.6/bin/scss:13:in `<top (required)>'
-D:/Program Files/Ruby25-x64/bin/scss:23:in `load'
-D:/Program Files/Ruby25-x64/bin/scss:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: ../../statics/css/base.\A         on line 5 of addCalendar.scss\A \A 1: // ------------------------------------------\A 2: // navigation\A 3: // ------------------------------------------\A 4: \A 5: @import '../../statics/css/base';\A 6: \A 7: .ui-navigation {\A 8:   text-align: center;\A 9:   display: flex;\A 10:   &__item {"; }
+/*# sourceMappingURL=addCalendar.wxss.map */

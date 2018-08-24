@@ -17,15 +17,34 @@
     </view>
   </view>
   <view class='calendar-body'>
+    <view class='calendar-total'>
+        <view class='calendar-total__item item-finish'>
+            <text class='calendar-total__label'>完成：</text>
+            <text class='calendar-total__num'>3</text>
+        </view>
+        <view class='calendar-total__item item-wait'>
+            <text class='calendar-total__label'>未完成：</text>
+            <text class='calendar-total__num'>3</text>
+        </view>
+        <view class='calendar-total__item item-pass'>
+            <text class='calendar-total__label'>过期：</text>
+            <text class='calendar-total__num'>3</text>
+        </view>
+    </view>
     <view class='calendar-checkwrap'>
       <view class='calendar-checkwrap__box'>
         <text class='calendar-checkwrap__time'>全天</text>
         <view class='calendar-checkwrap__content'>
           <view class='calendar-checkwrap__row'>
-            <label class="checkbox">
+            <label class="ui-checkbox">
               <checkbox/>xx
             </label>
           </view>
+          <view class='calendar-checkwrap__row'>
+              <label class="ui-checkbox">
+                <checkbox/>xx
+              </label>
+            </view>
         </view>
       </view>
     </view> 

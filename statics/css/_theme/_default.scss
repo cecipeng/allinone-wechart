@@ -8,13 +8,13 @@
 
 // base color ( can't use it directly)
 $org:                   #ddd;
-$green:                 #ddd;
+$green:                 #2dd2d0;   //////
 $yellow:                #ddd;
-$red:                   #ddd;
-$blue:                  #38acff;
+$red:                   #ff6f6f;  ///////
+$blue:                  #3cb2ff;
 $purple:                #ddd;
 $pink:                  #ddd;
-
+$grey:                  #ddd;  ////////
 // main color
 $main:                  $blue;  /// used
 $main-d:                mix(#000,$main,10%);
@@ -42,9 +42,9 @@ $border-w: 		        rgba(255,255,255,.3); //深色背景下
 
 // background-color
 $bg-l: 	                #ddd;
-$bg: 			              #ddd;
+$bg: 			        #eee; //////
 $bg-d: 	                #ddd;
-$bg-active:             #f5f5f5; ////
+$bg-active:             #f5f5f5; // 白色背景hover  /////
 
 // disabled color
 $disabled-color:        #ddd;
@@ -138,3 +138,13 @@ $screen-xl:             unit(1600);
 //       width: 200px;
 //     }
 //   }
+
+
+//--------------------- components ---------------------//
+// checkbox
+$checkbox-size: unit(40);
+$checkbox-fz:    $fz;
+$checkbox-color:  $red;
+$checkbox-radius:   $radius-s;
+$checkbox-border:   $border;
+$checkbox-mr:   unit(20);
