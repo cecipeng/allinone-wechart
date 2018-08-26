@@ -13,6 +13,8 @@ Component({
    * 组件的初始数据
    */
   data: {
+    dateNum: 6, //显示的天数
+    activeDate: "", //当前显示的日期（某一天）
     dropList: [
       {
         "name": "quanbufenlei ",
@@ -23,29 +25,73 @@ Component({
         "value": 1
       }
     ],
-    dayList: []
+    dayList: [],
+    taskList: [
+      {
+        "time": "全天",
+        "list": [
+          {
+            "name": "xx1",
+            "status": 1
+          }
+        ]
+      },
+      {
+        "time": "09:00",
+        "list": [
+          {
+            "name": "xx2",
+            "status": 0
+          },
+          {
+            "name": "xx3",
+            "status": 1
+          }
+        ]
+      },
+      {
+        "time": "14:30",
+        "list": [
+          {
+            "name": "xx4",
+            "status": 0
+          }
+        ]
+      }
+    ]
   },
   ready: function(){
-    this.getDayList()
+    this.setData({
+      activeDate: moment()
+    })
+    this.getDayList();
   },
 
   /**
    * 组件的方法列表
    */
   methods: {
-    //生成列表
+    //生成列表 -- 显示日期列表
     getDayList:function(){
       var _list = [];
       var _day = '';
       var _week = '';
-      for(var i=-3,j=0;i<2;i++,j++){
-        _day = moment().subtract(i, 'days').format('MM.DD');
-        _week = this.formatWeek(moment().subtract(i, 'days').format('d'));
+      var _start = parseInt(this.data.dateNum / 2); //开始时间（指定时间的前几天）
+      var _rootDate = this.data.activeDate;
+      var _d;
+
+      for (var i = _start; i > (_start - this.data.dateNum);i--){
+        _d = _rootDate.clone();
+        _d.subtract(i, 'days');
+        _day = _d.format('MM.DD');
+        _week = this.formatWeek(_d.format('d'));
+
         _list.push({day:_day,week:_week});
       }
       this.setData({
-        dayList: _list.reverse()
+        dayList: _list
       })
+      
     },
     //转换星期
     formatWeek:function(week){
@@ -78,6 +124,32 @@ Component({
         }
       
       return _result;
+    },
+    checkboxChange: function (e) {
+      console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+    },
+    // 切换到前N（=this.data.dateNum）天
+    changeToPrev: function() { 
+      this.setData({
+        activeDate: this.data.activeDate.subtract(this.data.dateNum, 'days')
+      })
+      this.getDayList();
+    },
+    // 切换到后N（=this.data.dateNum）天
+    changeToNext: function () {
+      this.setData({
+        activeDate: this.data.activeDate.add(this.data.dateNum, 'days')
+      })
+      this.getDayList();
+    },
+    // 切换到指定日期
+    changeTo: function (e) {
+      var _root = parseInt(this.data.dateNum / 2) - e.currentTarget.dataset.id; //activeDate的index
+     
+      this.setData({
+        activeDate: this.data.activeDate.subtract(_root, 'days')
+      })
+      this.getDayList();
     }
   }
 })

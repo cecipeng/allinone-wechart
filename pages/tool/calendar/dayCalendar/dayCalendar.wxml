@@ -6,14 +6,14 @@
       </Dropdown>
     </view>
     <view class='calendar-topbar__day'>
-      <view class='day-ctrlbtn day-prev'></view>
+      <view class='day-ctrlbtn day-prev' bindtap='changeToPrev'></view>
       <view class='day-list'>
-        <view class='day-item' wx:for='{{dayList}}' wx:key='{{index}}'>
+        <view class='day-item' wx:for='{{dayList}}' wx:key='{{index}}' data-id='{{index}}' bindtap='changeTo'>
           <text class='day-num'>{{item.day}}</text>
           <text class='day-week'>{{item.week}}</text>
         </view>
       </view>
-      <view class='day-ctrlbtn day-next'></view>
+      <view class='day-ctrlbtn day-next' bindtap='changeToNext'></view>
     </view>
   </view>
   <view class='calendar-body'>
@@ -32,19 +32,14 @@
         </view>
     </view>
     <view class='calendar-checkwrap'>
-      <view class='calendar-checkwrap__box'>
-        <text class='calendar-checkwrap__time'>全天</text>
+      <view class='calendar-checkwrap__box' wx:for="{{taskList}}" wx:key="{{index}}">
+        <text class='calendar-checkwrap__time'>{{item.time}}</text>
         <view class='calendar-checkwrap__content'>
-          <view class='calendar-checkwrap__row'>
-            <label class="ui-checkbox">
-              <checkbox/>xx
+          <view class='calendar-checkwrap__row' wx:for="{{item.list}}" wx:for-item="list" wx:key="{{index}}">
+            <label class="ui-checkbox" bingChange='checkboxChange'>
+              <checkbox checked="{{list.status==1?true:false}}" />{{list.name}}
             </label>
           </view>
-          <view class='calendar-checkwrap__row'>
-              <label class="ui-checkbox">
-                <checkbox/>xx
-              </label>
-            </view>
         </view>
       </view>
     </view> 
