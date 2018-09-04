@@ -20,15 +20,15 @@
     <view class='calendar-total'>
         <view class='calendar-total__item item-finish'>
             <text class='calendar-total__label'>完成：</text>
-            <text class='calendar-total__num'>3</text>
+            <text class='calendar-total__num'>{{countFinish}}</text>
         </view>
         <view class='calendar-total__item item-wait'>
             <text class='calendar-total__label'>未完成：</text>
-            <text class='calendar-total__num'>3</text>
+            <text class='calendar-total__num'>{{countUnFinish}}</text>
         </view>
         <view class='calendar-total__item item-pass'>
             <text class='calendar-total__label'>过期：</text>
-            <text class='calendar-total__num'>3</text>
+            <text class='calendar-total__num'>{{countOverdue}}</text>
         </view>
     </view>
     <view class='calendar-checkwrap'>

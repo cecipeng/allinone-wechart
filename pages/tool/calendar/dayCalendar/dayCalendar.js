@@ -15,6 +15,9 @@ Component({
   data: {
     dateNum: 6, //显示的天数
     activeDate: "", //当前显示的日期（某一天）
+    countFinish: 0, //统计完成的
+    countUnFinish: 0, //统计- 未完成
+    countOverdue: 0, // 统计 - 过期
     dropList: [
       {
         "name": "quanbufenlei ",
@@ -28,6 +31,7 @@ Component({
     dayList: [],
     taskList: [
       {
+        "date": "2018-09-03",
         "time": "全天",
         "list": [
           {
@@ -37,6 +41,7 @@ Component({
         ]
       },
       {
+        "date": "2018-09-03",
         "time": "09:00",
         "list": [
           {
@@ -45,11 +50,12 @@ Component({
           },
           {
             "name": "xx3",
-            "status": 1
+            "status": 0
           }
         ]
       },
       {
+        "date": "2018-09-03",
         "time": "14:30",
         "list": [
           {
@@ -61,10 +67,12 @@ Component({
     ]
   },
   ready: function(){
+    // 默认显示今日的日程
     this.setData({
       activeDate: moment()
     })
     this.getDayList();
+    this.countNum();
   },
 
   /**
@@ -91,7 +99,6 @@ Component({
       this.setData({
         dayList: _list
       })
-      
     },
     //转换星期
     formatWeek:function(week){
@@ -125,8 +132,42 @@ Component({
       
       return _result;
     },
-    checkboxChange: function (e) {
-      console.log('checkbox发生change事件，携带value值为：', e.detail.value)
+    // 统计
+    countNum: function () {
+      const _tasklist = this.data.taskList;
+      const _activeDate = this.data.activeDate;
+      let _finish = 0,_unfinish = 0,_overdue = 0;
+      this.setCount(0,0,0);
+
+      _tasklist.forEach(function(item,index){
+
+        item.list.forEach(function(item2,index2){
+
+          if(item2.status == 0) {
+            _unfinish++;
+          }
+          else if(item2.status == 1) {
+              _finish++;
+          }
+        })
+
+        if(moment(_activeDate.format('YYYY-MM-DD HH:MM')).isAfter(item.date+' '+item.time)){
+            item.list.forEach(function(item2,index2){
+                if(item2.status == 0) {
+                    _overdue++;
+                }
+            })
+        }
+      })
+      this.setCount(_finish,_unfinish,_overdue);
+    },
+    // 统计赋值
+    setCount: function(finish,unfinish,overdue) {
+        this.setData({
+            countFinish: finish,
+            countUnFinish: unfinish,
+            countOverdue: overdue
+        })
     },
     // 切换到前N（=this.data.dateNum）天
     changeToPrev: function() { 
