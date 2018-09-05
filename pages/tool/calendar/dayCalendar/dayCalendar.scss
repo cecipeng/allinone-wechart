@@ -6,7 +6,7 @@
 @import '../../../../statics/css/base';
 
 // topbar
-$topbar-h: unit(100);
+$topbar-h: $com-row-h;
 $topbar-bg: $main;
 $topbar-prev-size: unit(64); //左右切换按钮宽度
 

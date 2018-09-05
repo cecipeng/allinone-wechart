@@ -62,7 +62,7 @@ $color-disable: 		$color-l;
 //font-size
 $fz-xs:                  unit(24);
 $fz-s:                  unit(28);
-$fz:                    unit(32);
+$fz:                    unit(32); ////////
 $fz-l:                  unit(36);
 $fz-xl:                 unit(40);
 $fz-xxl:                unit(48);
@@ -115,9 +115,12 @@ $wrap-min-w:			unit(1024);        //类型：全屏内容最小宽度，小于�
 $side-w:				unit(200);      // 侧栏 width
 $padding:  				unit(20);
 $com-height:            unit(30);       // 标准高度
-$com-height-l:          unit(36);
+$com-height-l:          unit(36);       ///////dropdown
 $com-height-s:          unit(20);
 
+$com-row-h:            unit(64*2);       // 标准高度  //////////
+$com-row-h-l:          unit(36);
+$com-row-h-s:          unit(20);
 
 //--------------------- media ---------------------//
 $screen-xs:             unit(480);

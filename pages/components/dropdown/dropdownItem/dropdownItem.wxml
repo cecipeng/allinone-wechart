@@ -1,0 +1,10 @@
+<dl>
+  <dt class='ui-dropdown__droplink' bindtap="tapDropdown">
+    <text class='text'>{{dropItem.selectName}}<text class='arrow'></text></text>
+  </dt>
+  <dd class='ui-dropdown__menu' animation="{{animationData}}">
+    <ul class='ui-dropdown__list'>
+      <li class='ui-dropdown__item' wx:for='{{dropItem.list}}' wx:key='{{index}}' data-value='{{item.value}}'>{{item.name}}</li>
+    </ul>
+  </dd>
+</dl>

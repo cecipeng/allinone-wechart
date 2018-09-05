@@ -1,9 +1,7 @@
 <view class='calendar-day'>
   <view class='calendar-topbar'>
     <view class='calendar-topbar__side'>
-      <Dropdown dropClass='is-right' dropWidth='200rpx' dropList='{{dropList}}'>
-        <view class='ui-dropdown__droplink calendar-topbar__droplink'>分类<text class='arrow'></text></view>
-      </Dropdown>
+      <Dropdown dropClass='is-right' dropWidth='200rpx' dropList='{{dropList}}'></Dropdown>
     </view>
     <view class='calendar-topbar__day'>
       <view class='day-ctrlbtn day-prev' bindtap='changeToPrev'></view>

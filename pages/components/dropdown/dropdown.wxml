@@ -1,6 +1,3 @@
 <view class='ui-dropdown {{dropClass}}'>
-  <slot></slot>
-  <view class='ui-dropdown__menu' style='width: {{dropWidth}}'>
-    <view class='ui-dropdown__item' wx:for='{{dropList}}' wx:key='{{index}}' data-value='{{item.value}}'>{{item.name}}</view>
-  </view>
+  <dropdownItem wx:for="{{dropList}}" wx:key="{{index}}" dropItem='{{item}}'></dropdownItem>
 </view>

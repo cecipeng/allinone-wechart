@@ -20,12 +20,38 @@ Component({
     countOverdue: 0, // 统计 - 过期
     dropList: [
       {
-        "name": "quanbufenlei ",
-        "value": 0
+        "selectName": "NAME-2",
+        "list": [
+          {
+            "id": "ID-1",
+            "name": "NAME-1"
+          },
+          {
+            "id": "ID-2",
+            "name": "NAME-2"
+          },
+          {
+            "id": "ID-3",
+            "name": "NAME-3"
+          }
+        ]
       },
       {
-        "name": "分类2",
-        "value": 1
+        "selectName": "NAME-b",
+        "list": [
+          {
+            "id": "ID-a",
+            "name": "NAME-a"
+          },
+          {
+            "id": "ID-b",
+            "name": "NAME-b"
+          },
+          {
+            "id": "ID-c",
+            "name": "NAME-c"
+          }
+        ]
       }
     ],
     dayList: [],

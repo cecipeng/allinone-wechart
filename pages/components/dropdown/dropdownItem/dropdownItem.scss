@@ -1,0 +1,71 @@
+@charset "UTF-8";
+// ------------------------------------------
+// dropdown
+// ------------------------------------------
+
+@import '../../../../statics/css/_base';
+
+$drop-link-h:  $com-row-h; //droplink高度
+
+$drop-item-h:  $com-row-h; //列表高度
+
+.ui-dropdown {
+
+  //左对齐
+  &.is-left &__menu {
+    left: 0;
+  }
+  //右对齐
+  &.is-right &__menu {
+    right: 0;
+  }
+
+  &__droplink {
+    position: relative;
+    display: inline-block;
+    height: $drop-link-h;
+    line-height: $drop-link-h;
+    padding: 0 unit(25) 0 unit(15); ////////
+    font-size: $fz;
+    color: #fff;
+    text-align: center;
+    .text {
+
+    }
+    .arrow {
+      position: absolute;
+      top: 50%;
+      right: unit(10);
+      margin-top: unit(-6);
+      @include arrow(bottom,#fff,unit(6),unit(6));
+    }
+  }
+  &__menu {
+    transform: scaleY(0);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-height: $drop-item-h * 8;
+    box-shadow: $shadow-s;
+    background-color: #fff;
+    border-radius: $radius-s;
+    z-index: $zi-dd;
+    overflow: auto;
+  }
+  &__item {
+    display: block;
+    padding: 0 unit(30); ///////
+    line-height: $drop-item-h;
+    height: $drop-item-h;
+    font-size: $fz-s;
+    color: $color-l;
+    @extend %tof;
+    &:active {
+      background-color: $bg-active;
+    }
+  }
+}
+dl {
+
+}
