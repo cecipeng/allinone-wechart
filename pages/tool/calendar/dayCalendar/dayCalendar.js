@@ -35,6 +35,7 @@ Component({
         "time": "全天",
         "list": [
           {
+            "id": 111,
             "name": "xx1",
             "status": 1
           }
@@ -45,10 +46,12 @@ Component({
         "time": "09:00",
         "list": [
           {
+            "id": 222,
             "name": "xx2",
             "status": 0
           },
           {
+            "id": 333,
             "name": "xx3",
             "status": 0
           }
@@ -59,6 +62,7 @@ Component({
         "time": "14:30",
         "list": [
           {
+            "id": 444,
             "name": "xx4",
             "status": 0
           }
@@ -191,6 +195,25 @@ Component({
         activeDate: this.data.activeDate.subtract(_root, 'days')
       })
       this.getDayList();
+    },
+    // 选中checkbox
+    changeListCheck: function(e) {
+      const _id = e.currentTarget.dataset.id;  //ID
+      const _isCheck = e.detail.value[0] ? true : false;   //是否选中
+      const _tasklist = this.data.taskList;
+
+      _tasklist.forEach(function(item,index){  // 通过id修改状态
+        item.list.forEach(function(item2,index2){
+          if(item2.id == _id) {
+            _tasklist[index].list[index2].status = _isCheck ? 1 : 0;
+          }
+        })
+      })
+      this.setData({
+        taskList : _tasklist 
+      })
+
+      this.countNum();
     }
   }
 })

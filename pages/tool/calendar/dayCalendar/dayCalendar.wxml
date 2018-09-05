@@ -35,10 +35,12 @@
       <view class='calendar-checkwrap__box' wx:for="{{taskList}}" wx:key="{{index}}">
         <text class='calendar-checkwrap__time'>{{item.time}}</text>
         <view class='calendar-checkwrap__content'>
-          <view class='calendar-checkwrap__row' wx:for="{{item.list}}" wx:for-item="list" wx:key="{{index}}">
-            <label class="ui-checkbox" bingChange='checkboxChange'>
-              <checkbox checked="{{list.status==1?true:false}}" />{{list.name}}
-            </label>
+          <view class='calendar-checkwrap__row' wx:for="{{item.list}}" wx:for-item="item2" wx:key="{{index}}" >
+            <checkbox-group bindchange="changeListCheck" data-id="{{item2.id}}">
+              <label class="ui-checkbox">
+                <checkbox checked="{{item2.status==1?true:false}}" value="{{item2.id}}" />{{item2.name}}
+              </label>
+            </checkbox-group>
           </view>
         </view>
       </view>
