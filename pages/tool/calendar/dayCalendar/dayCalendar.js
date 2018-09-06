@@ -19,40 +19,40 @@ Component({
     countUnFinish: 0, //统计- 未完成
     countOverdue: 0, // 统计 - 过期
     dropList: [
-      {
-        "selectName": "NAME-2",
-        "list": [
-          {
-            "id": "ID-1",
-            "name": "NAME-1"
-          },
-          {
-            "id": "ID-2",
-            "name": "NAME-2"
-          },
-          {
-            "id": "ID-3",
-            "name": "NAME-3"
-          }
-        ]
-      },
-      {
-        "selectName": "NAME-b",
-        "list": [
-          {
-            "id": "ID-a",
-            "name": "NAME-a"
-          },
-          {
-            "id": "ID-b",
-            "name": "NAME-b"
-          },
-          {
-            "id": "ID-c",
-            "name": "NAME-c"
-          }
-        ]
-      }
+      [
+        {
+          "id": "1",
+          "name": "全部",
+          "isSelected": false
+        },
+        {
+          "id": "2",
+          "name": "分类1",
+          "isSelected": false
+        },
+        {
+          "id": "3",
+          "name": "分类2",
+          "isSelected": true
+        }
+      ],
+      [
+        {
+          "id": "11",
+          "name": "全部a",
+          "isSelected": false
+        },
+        {
+          "id": "22",
+          "name": "分类b",
+          "isSelected": false
+        },
+        {
+          "id": "33",
+          "name": "分类c",
+          "isSelected": true
+        }
+      ],
     ],
     dayList: [],
     taskList: [

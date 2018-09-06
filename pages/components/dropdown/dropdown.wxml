@@ -1,11 +1,11 @@
 <view class='ui-dropdown {{dropClass}}'>
   <dl wx:for="{{dropList}}" wx:key="{{index}}">
-    <dt class='ui-dropdown__droplink' bindtap="tapDropdown" data-index="{{index}}">
-      <text class='text'>{{item.selectName}}<text class='arrow'></text></text>
+    <dt class='ui-dropdown__droplink' bindtap="tapDropdown" data-index="{{index}}" data-id="{{selectData[index].id}}">
+      <text class='text'>{{selectData[index].name}}<text class='arrow'></text></text>
     </dt>
     <dd class='ui-dropdown__menu' animation="{{animationData[index]}}">
       <ul class='ui-dropdown__list'>
-        <li class='ui-dropdown__item' wx:for='{{item.list}}' wx:for-item='item2' wx:for-index='index2' wx:key='{{index2}}' data-value='{{item2.id}}'>{{item2.name}}</li>
+        <li class='ui-dropdown__item' wx:for='{{item}}' wx:for-item='item2' wx:for-index='index2' wx:key='{{index2}}' data-id='{{item2.id}}' data-index='{{index2}}' data-topindex='{{index}}' bindtap="tapItem">{{item2.name}}</li>
       </ul>
     </dd>
   </dl>

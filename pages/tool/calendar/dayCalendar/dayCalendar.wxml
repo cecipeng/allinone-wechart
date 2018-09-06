@@ -1,7 +1,7 @@
 <view class='calendar-day'>
   <view class='calendar-topbar'>
     <view class='calendar-topbar__side'>
-      <Dropdown dropClass='is-right' dropWidth='200rpx' dropList='{{dropList}}'></Dropdown>
+      <Dropdown dropClass='is-right' dropWidth='200rpx' initDropList='{{dropList}}'></Dropdown>
     </view>
     <view class='calendar-topbar__day'>
       <view class='day-ctrlbtn day-prev' bindtap='changeToPrev'></view>
