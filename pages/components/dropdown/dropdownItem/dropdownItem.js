@@ -7,21 +7,7 @@ Component({
     dropItem: {
       type: Object,
       value: {
-        "selectName": "NAME-2",
-        "list": [
-          {
-            "id": "ID-1",
-            "name": "NAME-1"
-          },
-          {
-            "id": "ID-2",
-            "name": "NAME-2"
-          },
-          {
-            "id": "ID-3",
-            "name": "NAME-3"
-          }
-        ]
+        
       }
     }
   },
