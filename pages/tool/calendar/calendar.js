@@ -5,26 +5,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-    currentTab: 0, //默认显示今日
-    navList: [
+    currentTab: 0, //默认显示“日程”
+    modData : "" , //显示模式
+    navList: [ // 底部导航项目
       {
         "classname": "",
-        "name": "今日",
+        "name": "日程",
         "value": 0
       },
       {
         "classname": "",
-        "name": "全部日程",
+        "name": "待办",
         "value": 1
       },
       {
         "classname": "",
-        "name": "待办列表",
+        "name": "清单",
         "value": 2
       }
-    ]
+    ],
+    sortDate: [  //显示模式
+      {
+        id: 0,
+        name: "日"
+      },
+      {
+        id: 1,
+        name: "周"
+      },
+      {
+        id: 2,
+        name: "月"
+      }
+    ],
+    radiogroupCheckVal: 0, //日，周，月默认项
   },
 
+  // 切换日，周，月显示模式
+  radioChange: function (e) {
+    this.setData({
+      radiogroupCheckVal : e.detail.value,
+      modData: e.detail.value
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -32,7 +55,7 @@ Page({
 
   },
 
-  //tab切换
+  //底部tab切换
   onSwitchResult: function (e) {
     this.setData({
       currentTab: e.detail.currentTab

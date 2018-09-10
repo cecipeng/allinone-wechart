@@ -1,13 +1,20 @@
 <view class='mod-calendar ui-layout ui-layout--footer ui-layout--header'>
   <view class='ui-layout__header'>
-    <Header title='日程'></Header>
+    <Header title='日程'>
+      <view class='ui-radio-group ui-radio-group--button'>
+        <radio-group class="ui-radio-group__box" bindchange="radioChange">
+          <label class="ui-radio {{radiogroupCheckVal==item.id?'is-check':''}}" wx:for="{{sortDate}}" wx:key="{{index}}">
+            <radio value="{{item.id}}" checked="{{item.checked}}"/>{{item.name}}
+          </label>
+        </radio-group>
+      </view>
+    </Header>
   </view>
   <view class='ui-layout__body'>
-    <DayCalendar wx:if='{{currentTab == 0}}'></DayCalendar>
-    <AllCalendar wx:if='{{currentTab == 1}}'></AllCalendar>
-    <Todo wx:if='{{currentTab == 2}}'></Todo>
+    <AllCalendar wx:if='{{currentTab == 0}}' modData='{{modData}}'></AllCalendar>
+    <Todo wx:if='{{currentTab == 1}}'></Todo>
   </view>
   <view class='ui-layout__footer'>
-    <Navigation navList="{{navList}}" bind:switchResult='onSwitchResult'></Navigation>
+    <Navigation navList="{{navList}}" currentData='{{currentTab}}' bind:switchResult='onSwitchResult'></Navigation>
   </view>
 </view>

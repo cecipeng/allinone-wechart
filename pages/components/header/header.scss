@@ -8,6 +8,7 @@ $header-h: $header-h;
 $header-bg: #f5f5f5;
 $header-title-fz: $fz-xl;
 $header-title-color: $color-d;
+$header-padding: unit(20); //两边间距
 .ui-header {
   position: relative;
   height: $header-h;
@@ -22,9 +23,10 @@ $header-title-color: $color-d;
   }
   &__right {
     position: absolute;
-    right: 0;
+    right: $header-padding;
     top: 0;
     bottom: 0;
+    @extend %vm;
   }
   &__title {
     line-height: $header-h;

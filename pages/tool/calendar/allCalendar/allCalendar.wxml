@@ -1,0 +1,3 @@
+<DayCalendar wx:if="{{modData == 0}}" importDate="{{defaultDate}}"></DayCalendar>
+<WeekCalendar wx:elif="{{modData == 1}}" importDate="{{defaultDate}}"></WeekCalendar>
+<MonthCalendar wx:elif="{{modData == 2}}" importDate="{{defaultDate}}"></MonthCalendar>

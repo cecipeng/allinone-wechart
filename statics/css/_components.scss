@@ -43,3 +43,47 @@
     border: 1rpx solid $checkbox-border;
   }
 }
+
+/////////////////////////////////////    radio-group
+
+//按钮类型
+$radio-button-radius: $radius-s;
+$radio-button-h: $com-height; //高度
+.ui-radio {
+
+}
+.ui-radio-group {
+  display: inline-block;
+  vertical-align: middle;
+  @extend %cf;
+  &--button {
+    .ui-radio {
+      float: left;
+      display: inline-block;
+      height: $radio-button-h;
+      line-height: $radio-button-h - unit(2);
+      padding: 0 unit(24);
+      border: 1px solid $border;
+      border-left: none;
+      background-color: #fff;
+      font-size: $fz-s;
+      color: $color-l;
+      &.is-check {
+        border-color: $main;
+        background-color: $main;
+        color: #fff;
+        z-index: 1;
+      }
+      radio {
+        display: none;
+      }
+      &:first-child {
+        border-left: 1px solid $border;
+        border-radius: $radio-button-radius 0 0 $radio-button-radius;
+      }
+      &:last-child {
+        border-radius: 0 $radio-button-radius $radio-button-radius 0;
+      }
+    }
+  }
+}

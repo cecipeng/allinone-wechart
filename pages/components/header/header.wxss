@@ -1,37 +1,53 @@
+.ui-header__right:after {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0;
+  height: 100%;
+  content: "";
+}
+
 .ui-header {
   position: relative;
   height: 88rpx;
   padding: 0 10rpx;
   text-align: center;
-  background-color: #f5f5f5; }
-  .ui-header__left {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0; }
-  .ui-header__right {
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0; }
-  .ui-header__title {
-    line-height: 88rpx;
-    font-size: 40rpx;
-    color: #333; }
-  .ui-header__back {
-    display: inline-block;
-    vertical-align: middle;
-    width: 88rpx;
-    height: 88rpx;
-    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAS1BMVEUAAACUlJSYmJiYmJiioqKZmZmampqVlZWYmJiZmZmXl5eZmZmYmJiZmZmampqYmJiYmJiYmJiZmZmZmZmampqZmZmZmZmXl5eZmZlqAxG1AAAAGHRSTlMAD/pCB89kCvXUW8pUTDqqvbixwzXoGRZeuD4qAAAAcklEQVRYw+3PyQ6AIBRDURQRcRan9/9fKrp1WRIc2v25SdXPtlnMl/m6Q15ENOgH+qTeo75I5+sIfqKH/JjQtx/wM+rte30XfIP4/PJwgIWzkCEFHQqGBRZYiF2oRBxU6Fl4TGEJBVOgBa2gF85bxd13AJ6uElxXtKMjAAAAAElFTkSuQmCC");
-    background-repeat: no-repeat;
-    background-size: 50rpx auto;
-    background-position: center center; }
-    .ui-header__back:hover {
-      opacity: 0.85; }
-    .ui-header__back:active {
-      opacity: 0.7; }
-    .ui-header__back:active {
-      background-color: transparent; }
+  background-color: #f5f5f5;
+}
+.ui-header__left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+.ui-header__right {
+  position: absolute;
+  right: 20rpx;
+  top: 0;
+  bottom: 0;
+}
+.ui-header__title {
+  line-height: 88rpx;
+  font-size: 40rpx;
+  color: #333;
+}
+.ui-header__back {
+  display: inline-block;
+  vertical-align: middle;
+  width: 88rpx;
+  height: 88rpx;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAAAS1BMVEUAAACUlJSYmJiYmJiioqKZmZmampqVlZWYmJiZmZmXl5eZmZmYmJiZmZmampqYmJiYmJiYmJiZmZmZmZmampqZmZmZmZmXl5eZmZlqAxG1AAAAGHRSTlMAD/pCB89kCvXUW8pUTDqqvbixwzXoGRZeuD4qAAAAcklEQVRYw+3PyQ6AIBRDURQRcRan9/9fKrp1WRIc2v25SdXPtlnMl/m6Q15ENOgH+qTeo75I5+sIfqKH/JjQtx/wM+rte30XfIP4/PJwgIWzkCEFHQqGBRZYiF2oRBxU6Fl4TGEJBVOgBa2gF85bxd13AJ6uElxXtKMjAAAAAElFTkSuQmCC");
+  background-repeat: no-repeat;
+  background-size: 50rpx auto;
+  background-position: center center;
+}
+.ui-header__back:hover {
+  opacity: 0.85;
+}
+.ui-header__back:active {
+  opacity: 0.7;
+}
+.ui-header__back:active {
+  background-color: transparent;
+}
 
 /*# sourceMappingURL=header.wxss.map */

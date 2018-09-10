@@ -1,0 +1,9 @@
+{
+  "component": true,
+  "usingComponents": {
+    "DayCalendar": "dayCalendar/dayCalendar",
+    "WeekCalendar": "weekCalendar/weekCalendar",
+    "MonthCalendar": "monthCalendar/monthCalendar"
+    
+  }
+}

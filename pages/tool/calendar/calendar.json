@@ -3,7 +3,7 @@
   "usingComponents": {
     "Navigation": "../../components/navigation/navigation",
     "Header": "../../components/header/header",
-    "DayCalendar": "dayCalendar/dayCalendar",
+    "AllCalendar": "allCalendar/allCalendar",
     "Todo": "todo/todo"
   }
 }

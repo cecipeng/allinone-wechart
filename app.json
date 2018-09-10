@@ -4,7 +4,8 @@
     "pages/tool/tool",
     "pages/tool/calendar/calendar",
     "pages/tool/calendar/addCalendar/addCalendar",
-    "pages/tool/calendar/dayCalendar/dayCalendar"
+    "pages/tool/calendar/allCalendar/dayCalendar/dayCalendar",
+    "pages/tool/calendar/allCalendar/allCalendar"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -36,7 +36,7 @@ $success:               $green;
 
 // border
 $border-l: 	            #ddd;
-$border: 				#ddd;
+$border: 				#ddd;   /////
 $border-d: 		        #ddd;
 $border-w: 		        rgba(255,255,255,.3); //深色背景下
 
@@ -82,9 +82,9 @@ $shadow-l:              0 unit(1) unit(6) rgba(0,0,0,.2);
 
 //--------------------- radius ---------------------//
 
-$radius-s:              unit(2); ///
-$radius:                unit(3);
-$radius-l:              unit(6);
+$radius-s:              unit(4); /// button
+$radius:                unit(6);
+$radius-l:              unit(12);
 
 
 //--------------------- z-index ---------------------//
@@ -114,7 +114,7 @@ $centerwrap-w:			unit(1200);     // 类型：居中内容宽度
 $wrap-min-w:			unit(1024);        //类型：全屏内容最小宽度，小于该值应该出现横向滚动条
 $side-w:				unit(200);      // 侧栏 width
 $padding:  				unit(20);
-$com-height:            unit(30);       // 标准高度
+$com-height:            unit(60);       // 标准高度
 $com-height-l:          unit(36);       ///////dropdown
 $com-height-s:          unit(20);
 

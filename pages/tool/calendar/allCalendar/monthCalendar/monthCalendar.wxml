@@ -1,0 +1,19 @@
+<view class='calendar-month'>
+  <view class='calendar-topbar'>
+    <view class='calendar-topbar__side'>
+      <Dropdown dropClass='is-right' dropWidth='200rpx' initDropList='{{dropList}}'></Dropdown>
+    </view>
+    <view class='calendar-topbar__month'>
+      <view class='month-ctrlbtn month-prev' bindtap='changeToPrev'></view>
+      <view class='month-filter'>
+        <picker mode="date" fields="month" value="{{date}}" start="1900-01" end="2099-12" bindchange="bindDateChange">
+          <view class="picker">{{date}}</view>
+        </picker>
+      </view>
+      <view class='month-ctrlbtn month-next' bindtap='changeToNext'></view>
+    </view>
+  </view>
+  <view class='calendar-body'>
+    
+  </view>
+</view>
