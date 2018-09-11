@@ -14,6 +14,41 @@
     </view>
   </view>
   <view class='calendar-body'>
-    
+    <view class='month-list'>
+      <view class='month-list__header'>
+        <view class='month-list__row'>
+          <view class='month-list__col'>
+            <text class='month-list__weekname'>周一</text>
+          </view>
+          <view class='month-list__col'>
+            <text class='month-list__weekname'>周二</text>
+          </view>
+          <view class='month-list__col'>
+            <text class='month-list__weekname'>周三</text>
+          </view>
+          <view class='month-list__col'>
+            <text class='month-list__weekname'>周四</text>
+          </view>
+          <view class='month-list__col'>
+            <text class='month-list__weekname'>周五</text>
+          </view>
+          <view class='month-list__col month-list__col--weekend'>
+            <text class='month-list__weekname'>周六</text>
+          </view>
+          <view class='month-list__col month-list__col--weekend'>
+            <text class='month-list__weekname'>周天</text>
+          </view>
+        </view>
+      </view>
+
+      <view class='month-list__body'>
+        <view class='month-list__row' wx:for="{{dataList}}" wx:key="{{index}}">
+          <view class='month-list__col {{(index==0 && item2 > 7)?"month-list__col--weekend":""}} {{(index>=4 && item2 < 7)?"month-list__col--weekend":""}}' wx:for="{{item}}" wx:key="{{index2}}" wx:for-item="item2" wx:for-index="index2">
+            <text class='month-list__daynum'>{{item2}}</text>
+          </view>
+        </view>
+      </view>
+
+    </view>
   </view>
 </view>

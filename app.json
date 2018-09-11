@@ -5,6 +5,8 @@
     "pages/tool/calendar/calendar",
     "pages/tool/calendar/addCalendar/addCalendar",
     "pages/tool/calendar/allCalendar/dayCalendar/dayCalendar",
+    "pages/tool/calendar/allCalendar/monthCalendar/monthCalendar",
+    "pages/tool/calendar/allCalendar/weekCalendar/weekCalendar",
     "pages/tool/calendar/allCalendar/allCalendar"
   ],
   "window": {

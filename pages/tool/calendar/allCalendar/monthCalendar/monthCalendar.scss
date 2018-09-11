@@ -10,15 +10,75 @@ $topbar-h: $com-row-h;
 $topbar-bg: $main;
 $topbar-prev-size: unit(64); //左右切换按钮宽度
 
-//统计栏
-$total-h: unit(50);
-$total-bg: $bg;
+
+//日历
+$list-header-h : unit(64);
+
+$list-header-bg : $bg;
+$list-col-border: $border; //表格边线
+$list-col-other-bg : $bg-l; //非本月日期，特殊样式
+$list-col-other-color : $color-l; //非本月日期，特殊样式
 
 .calendar {
   &-month {
     display: flex;
     height: 100%;
     flex-direction: column;
+    // 日历
+    .month-list {
+      position: relative;
+      height: 100%;
+      padding-top: $list-header-h;
+      &__header {
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        height: $list-header-h;
+        background: $list-header-bg;
+      }
+      &__header &__col {
+        font-size: $fz-s;
+        color: $color-l;
+      }
+      &__body {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+      }
+      &__row {
+        flex: 1;
+        display: flex;
+        border-top: 1px solid $list-col-border;
+      }
+      &__col {
+        flex: 1;
+        width: 0;
+        font-size: $fz-xs;
+        color: $color-d;
+        border-left: 1px solid $list-col-border;
+        &:first-child {
+          border-left: none;
+        }
+        &--weekend {
+          background-color: $list-col-other-bg;
+          color: $list-col-other-color;
+        }
+      }
+      &__weekname {
+        display: block;
+        line-height: $list-header-h;
+        text-align: center;
+        @extend %tof;
+      }
+      &__daynum {
+        display: block;
+        line-height: unit(40); //////
+        padding-left: unit(10);
+        text-align: left;
+        @extend %tof;
+      }
+    }
   }
   &-topbar {
     height: $topbar-h;
@@ -61,5 +121,6 @@ $total-bg: $bg;
     flex: 1;
     overflow: auto;
   }
-  
+
 }
+
