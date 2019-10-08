@@ -2,12 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ddacd7ed-35e0-456e-ae95-9d4509e3c8d2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/statics/css/_components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/statics/css/_components.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/1fad3b2d9c9b71c9ce1bb3f6c84d5fe097ea6260/_animate.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/1fad3b2d9c9b71c9ce1bb3f6c84d5fe097ea6260/_mixin.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/1fad3b2d9c9b71c9ce1bb3f6c84d5fe097ea6260/_reset-mobile.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/1fad3b2d9c9b71c9ce1bb3f6c84d5fe097ea6260/_reset.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/409345f4e21cfec2f496467240b1feac6747aa89/app.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/e703fa15e75c0a7f2594a23f443565e7d865aba1/_base.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/e703fa15e75c0a7f2594a23f443565e7d865aba1/_components.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.sass-cache/e703fa15e75c0a7f2594a23f443565e7d865aba1/_conf.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/app.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/.sass-cache/5c5504841ea4f658363acb42bbed0fea340465e3/dropdown.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/.sass-cache/5c5504841ea4f658363acb42bbed0fea340465e3/dropdown.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.json" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/dropdown/dropdownItem/dropdownItem.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/fastenter/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/fastenter/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/header/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/header/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/components/navigation/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/components/navigation/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/addCalendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/addCalendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/.sass-cache/0e29ac466ed682655245c61761527cd1aad82b53/dayCalendar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/.sass-cache/0e29ac466ed682655245c61761527cd1aad82b53/dayCalendar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/work/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work/.sass-cache/1a7927301e0bc701947a4601c14d385e118765ab/_default.scssc" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,36 +75,72 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="scss" value="869" />
+          <entry key="scss" value="868" />
           <entry key="wxml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="SCSS" value="869" />
+          <entry key="SCSS" value="868" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45244756">
+    <splitter split-orientation="horizontal" split-proportion="0.4197234">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml">
+          <file leaf-file-name="dayCalendar.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="180">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                <state relative-caret-position="687">
+                  <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/calendar.wxml">
+          <file leaf-file-name="dayCalendar.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="72" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="72" />
+                <state relative-caret-position="135">
+                  <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="dropdown.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="fastenter.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="navigation.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="17" selection-start-column="17" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -77,84 +149,29 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/statics/css/_components.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="556">
-                  <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/allCalendar.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" selection-start-line="6" selection-end-line="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/allCalendar.wxml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="13" selection-start-column="13" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/monthCalendar/monthCalendar.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="945">
-                  <caret line="63" column="2" selection-start-line="63" selection-start-column="2" selection-end-line="63" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
+          <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="585">
-                  <caret line="39" selection-start-line="39" selection-end-line="39" />
+                <state relative-caret-position="972">
+                  <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/allCalendar.json">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/dayCalendar/dayCalendar.scss">
+          <file leaf-file-name="dayCalendar.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+                <state relative-caret-position="226">
+                  <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/allCalendar/dayCalendar/dayCalendar.wxss">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
+          <file leaf-file-name="dayCalendar.wxml" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/statics/css/_conf.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="17" selection-start-column="17" selection-end-column="17" />
+                <state relative-caret-position="216">
+                  <caret line="8" column="48" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="48" />
                 </state>
               </provider>
             </entry>
@@ -166,6 +183,12 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>$nav-h</find>
+      <find>checkboxChange</find>
+      <find>taskList</find>
+      <find>dayList</find>
+      <find>forEach</find>
+      <find>activeDate</find>
+      <find>data</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,20 +203,23 @@
         <option value="$PROJECT_DIR$/statics/css/_base/_mixin.scss" />
         <option value="$PROJECT_DIR$/statics/css/_base/_reset-mobile.scss" />
         <option value="$PROJECT_DIR$/statics/css/_base/_reset.scss" />
-        <option value="$PROJECT_DIR$/pages/tool/tool.scss" />
         <option value="$PROJECT_DIR$/pages/components/navigation/navigation.wxml" />
         <option value="$PROJECT_DIR$/pages/components/navigation/navigation.wxss" />
-        <option value="$PROJECT_DIR$/pages/components/navigation/navigation.scss" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss" />
+        <option value="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/addCalendar/addCalendar.scss" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/calendar.scss" />
+        <option value="$PROJECT_DIR$/pages/tool/tool.scss" />
         <option value="$PROJECT_DIR$/pages/components/fastenter/fastenter.scss" />
         <option value="$PROJECT_DIR$/pages/components/header/header.scss" />
-        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss" />
-        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml" />
-        <option value="$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml" />
-        <option value="$PROJECT_DIR$/pages/components/dropdown/dropdown.scss" />
+        <option value="$PROJECT_DIR$/pages/components/navigation/navigation.scss" />
         <option value="$PROJECT_DIR$/statics/css/_theme/_default.scss" />
-        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss" />
         <option value="$PROJECT_DIR$/app.scss" />
         <option value="$PROJECT_DIR$/statics/css/_components.scss" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.js" />
+        <option value="$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss" />
+        <option value="$PROJECT_DIR$/pages/components/dropdown/dropdown.scss" />
       </list>
     </option>
   </component>
@@ -203,9 +229,12 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="505" />
-    <option name="y" value="33" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1501" />
+    <option name="y" value="196" />
     <option name="width" value="1815" />
     <option name="height" value="1073" />
   </component>
@@ -214,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -230,6 +260,26 @@
               <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
               <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="dropdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="navigation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="tool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -245,15 +295,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="tool" type="462c0819:PsiDirectoryNode" />
               <item name="calendar" type="462c0819:PsiDirectoryNode" />
-              <item name="allCalendar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="tool" type="462c0819:PsiDirectoryNode" />
-              <item name="calendar" type="462c0819:PsiDirectoryNode" />
-              <item name="allCalendar" type="462c0819:PsiDirectoryNode" />
               <item name="dayCalendar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -262,8 +303,7 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="tool" type="462c0819:PsiDirectoryNode" />
               <item name="calendar" type="462c0819:PsiDirectoryNode" />
-              <item name="allCalendar" type="462c0819:PsiDirectoryNode" />
-              <item name="monthCalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="todo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
@@ -275,31 +315,11 @@
               <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
               <item name="statics" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
-              <item name="statics" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-              <item name="_theme" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="allinone-wechart" type="b2602c69:ProjectViewProjectNode" />
-              <item name="allinone-wechart" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -312,11 +332,11 @@
       <recent name="G:\CeciGithub\allinone\allinone-wechart\pages\tool" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\CeciGithub\allinone\allinone-wechart\statics\css" />
       <recent name="$PROJECT_DIR$/pages/components/dropdown" />
       <recent name="G:\CeciGithub\allinone\allinone-wechart\pages\tool\calendar\dayCalendar" />
       <recent name="$PROJECT_DIR$/pages/components/header" />
       <recent name="G:\CeciGithub\allinone\allinone-wechart\pages\components\navigation" />
-      <recent name="G:\CeciGithub\allinone\allinone-wechart" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -355,33 +375,36 @@
       <workItem from="1535007531436" duration="25000" />
       <workItem from="1535007570357" duration="5272000" />
       <workItem from="1535028782900" duration="4138000" />
+      <workItem from="1535096013858" duration="4974000" />
+      <workItem from="1536044131177" duration="7369000" />
+      <workItem from="1536138518433" duration="659000" />
+      <workItem from="1536229843309" duration="609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20054000" />
+    <option name="totallyTimeSpent" value="33661000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="233" y="23" width="1815" height="1073" extended-state="0" />
-    <editor active="true" />
+    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20457079" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32924527" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31396535" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13385417" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.34245282" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50104165" side_tool="true" weight="0.31320754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49895832" weight="0.31320754" />
       <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924527" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -391,6 +414,167 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1809">
+          <caret line="67" column="4" lean-forward="true" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3348">
+          <caret line="124" column="7" selection-start-line="124" selection-start-column="7" selection-end-line="124" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/_theme/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3699">
+          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1161">
+          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/_theme/_default.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statics/css/_base/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2889">
+          <caret line="107" column="12" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="65" column="1" lean-forward="true" selection-start-line="65" selection-start-column="1" selection-end-line="65" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app2.scss" />
     <entry file="file://$PROJECT_DIR$/statics/css/_conf.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -420,13 +604,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tool/tool.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -434,18 +611,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.wxss" />
     <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.wxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -459,13 +628,6 @@
     <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.wxss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/components/header/header.wxss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
@@ -473,48 +635,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml" />
-    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss" />
     <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.wxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="14" lean-forward="true" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/css/_base/_mixin.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="571">
+        <state relative-caret-position="2889">
           <caret line="107" column="12" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-891">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/addCalendar/addCalendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/calendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/tool.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/fastenter/fastenter.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/header/header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/navigation/navigation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.wxss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3591">
+          <caret line="133" selection-start-line="133" selection-end-line="133" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statics/css/_theme/_default.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        <state relative-caret-position="3699">
+          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss" />
+    <entry file="file://$PROJECT_DIR$/statics/css/_components.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="972">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.wxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="97" column="4" selection-start-line="97" selection-start-column="4" selection-end-line="97" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/tool/calendar/dayCalendar/dayCalendar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="121" column="20" selection-start-line="121" selection-start-column="20" selection-end-line="121" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/components/dropdown/dropdown.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
